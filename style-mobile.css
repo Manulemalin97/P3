@@ -13,10 +13,64 @@
  * définition des polices de caractères
  */
 
-header > h1{
-    font-family: 'Shrikhand', cursive;
-    text-align: center;
-    font-style: italic;
-    font-size: 12vw;
+body{
     margin: 0;
+}
+
+header > h1{
+    font-size: 8vw;
+    margin: 0;
+    box-shadow: 0 0 0 0.5vw #cfcfcf;
+    padding: 0.2vw;
+}
+
+.bloc header > div {
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 4vw;
+}
+
+.localisation > i {
+    margin-right: 4vw;
+    font-size: 4vw;
+}
+
+.bloc header > p{
+    font-size: 4vw;
+    margin: 0;
+    padding: 2.2vw;
+}
+.localisation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+/* Réservation, Explorer */
+.Réservez{
+    text-align: center;
+}
+
+.Réservez > h2{
+    font-size: 6vw;
+    margin-right: 11vw;
+    margin-left: 12vw;
+    margin-bottom: 0;
+}
+
+.Réservez > p{
+    font-size: 4.5vw;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+/* Réservation, Button recherche */
+.Réservez > button{
+    font-size: 5.5vw;
+    padding: 5vw 5vw;
+    margin-top: 5vw;
+    box-shadow: 1px 1px 16px -6px #000000;
+    border-radius: 9vw;
+    margin-bottom: 15vw;
 }

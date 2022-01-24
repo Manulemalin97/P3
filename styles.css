@@ -14,7 +14,9 @@
  * définition des polices de caractères
  */
  
- html {
+ *,
+ ::before,
+ ::after {
     box-sizing: border-box;
 }
 
@@ -23,3 +25,53 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shrikhand&display=swap');
+
+header{
+    background-color: #f6f6f6;
+}
+
+header > h1{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+}
+
+.bloc header > div {
+background-color: #eaeaea;
+}
+
+.localisation > i {
+    color: grey;
+}
+
+.bloc header > p{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-style: italic;
+}
+.localisation{
+    background-color: #eaeaea;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Réservation, Explorer */
+
+.Réservez > button{
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(#e872da, #a65cdb);
+    color: white;
+    border: none;
+}
+/* Effet au survol du Button recherche */
+.Réservez > button:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.Réservez > h2{
+    font-family: "Roboto", sans-serif;
+}
+.Réservez > p{
+    font-family: "Roboto", sans-serif;
+}

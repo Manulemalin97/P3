@@ -1,0 +1,22 @@
+/*
+ * style.css-mobile
+ * 
+ * définition des styles généraux à la page
+ * 
+ * @autor JANSEN Manuel
+ * @version 1.0
+ * @date 2022-01
+ */
+
+
+/*
+ * définition des polices de caractères
+ */
+
+header > h1{
+    font-family: 'Shrikhand', cursive;
+    text-align: center;
+    font-style: italic;
+    font-size: 12vw;
+    margin: 0;
+}

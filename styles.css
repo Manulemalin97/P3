@@ -1,0 +1,25 @@
+
+/*
+ * style.css-desktop
+ * 
+ * définition des styles généraux à la page
+ * 
+ * @autor JANSEN Manuel
+ * @version 1.0
+ * @date 2022-01
+ */
+
+
+/*
+ * définition des polices de caractères
+ */
+ 
+ html {
+    box-sizing: border-box;
+}
+
+/*
+ * définition des polices de caractères
+ */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shrikhand&display=swap');
